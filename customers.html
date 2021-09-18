@@ -16,7 +16,7 @@
 <body>
     <!-- navbar starts here  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="./index.html">World Bank 🏦</a>
+        <a class="navbar-brand" href="./index.html">World Bank</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
                 </li>
                 <li class="nav-item  active">
                     <a class="nav-link" href="./customers.html"
-                        style="color: rgb(37, 36, 36)!important; background-color:rgb(180, 178, 178);"><em>Send Money</em></a>
+                        style="color: rgb(37, 36, 36)!important; background-color: rgb(180, 178, 178);"><em>Send Money</em></a>
                 </li>
             </ul>
         </div>
@@ -37,7 +37,7 @@
     <!-- navbar ends here  -->
 
     <div class="my-info text-center">
-        <h2>Name: Prathima</h2>
+        <h2>Name: Sai Prathima</h2>
         <h4>Net Bank Balance: $<span id="myAccountBalance">20000</span></h4>
 
         <button class="btn btn-info" data-toggle="modal" data-target="#sendMoney">Send Money</button>
@@ -61,7 +61,7 @@
                             <input type="text" id="enterName" class="form-control" placeholder="Recipient's username"
                                 aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                                <span class="input-group-text" id="basic-addon2">@email.com</span>
                             </div>
                         </div>
                         <div class="input-group mb-3">
@@ -78,8 +78,9 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>Send Money
-                        </button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" onclick="sendMoney()" class="btn btn-success" data-dismiss="modal">Send
+                        Money</button>
                 </div>
             </div>
         </div>
@@ -124,81 +125,81 @@
                     <tr class="table-light">
                         <td scope="row">1</td>
                         <td>Yashu</td>
-                        <td>yashu@gmail.com</td>
+                        <td>yashu@email.com</td>
                         <td>
-                            <p id="yashuBankBalance">2400</p>
+                            <p id="yashuBankBalance">4500</p>
                         </td>
                     </tr>
                     <tr class="table-info">
                         <td scope="row">2</td>
                         <td>Supriya</td>
-                        <td>supriya@gmail.com</td>
+                        <td>supriya@email.com</td>
                         <td>
                             <p id="supriyaBankBalance">2400</p>
                         </td>
                     </tr>
                     <tr class="table-light">
                         <td scope="row">3</td>
-                        <td>Asha</td>
-                        <td>asha@gmail.com</td>
+                        <td>Abhi</td>
+                        <td>abhi@email.com</td>
                         <td>
-                            <p id="ashaBankBalance">3400</p>
+                            <p id="abhiBankBalance">3400</p>
                         </td>
                     </tr>
                     <tr class="table-info">
                         <td scope="row">4</td>
-                        <td>Ramesh</td>
-                        <td>ramesh@gmail.com</td>
+                        <td>Vismitha</td>
+                        <td>vismitha@email.com</td>
                         <td>
-                            <p id="rameshBankBalance">4000</p>
+                            <p id="vismithaBankBalance">4000</p>
                         </td>
                     </tr>
                     <tr class="table-light">
                         <td scope="row">5</td>
                         <td>Hari</td>
-                        <td>hari@gmail.com</td>
+                        <td>hari@email.com</td>
                         <td>
                             <p id="hariBankBalance">6300</p>
                         </td>
                     </tr>
                     <tr class="table-info">
                         <td scope="row">6</td>
-                        <td>Vismitha</td>
-                        <td>vismitha@gmail.com</td>
+                        <td>Sirisha</td>
+                        <td>sirisha@email.com</td>
                         <td>
-                            <p id="vismithaBankBalance">1003</p>
+                            <p id="sirishaBankBalance">1003</p>
                         </td>
                     </tr>
                     <tr class="table-light">
                         <td>7</td>
                         <td>Sunil</td>
-                        <td>sunil@gmail.com</td>
+                        <td>sunil@email.com</td>
                         <td>
                             <p id="sunilBankBalance">5600</p>
                         </td>
                     </tr>
                     <tr class="table-info">
                         <td scope="row">8</td>
-                        <td>Sirisha</td>
-                        <td>sirisha@gmail.com</td>
+                        <td>Rashmi</td>
+                        <td>rashmi@email.com</td>
                         <td>
-                            <p id="sirishaBankBalance">3560</p>
+                            <p id="rashmiBankBalance">35603</p>
                         </td>
                     </tr>
                     <tr class="table-light">
                         <td scope="row">9</td>
                         <td>Mahesh</td>
-                        <td>mahesh@gmail.com</td>
+                        <td>mahesh@email.com</td>
                         <td>
                             <p id="maheshBankBalance">8500</p>
                         </td>
                     </tr>
                     <tr class="table-info">
                         <td scope="row">10</td>
-                        <td>Rashmi</td>
-                        <td>rashmi@gmail.com</td>
+                        <td>Ramya</td>
+                        <td>ramya@email.com</td>
                         <td>
-                            <p id="rashmiBankBalance">1350</p>
+                            <p id="ramyaBankBalance">1350</p>
                         </td>
                     </tr>
                 </tbody>
